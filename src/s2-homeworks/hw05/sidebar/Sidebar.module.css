@@ -2,6 +2,7 @@
 }
 
 .sidebar.open {
+    color: #0066cc;
 }
 
 .background {
@@ -11,15 +12,21 @@
 }
 
 .nav a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
 
 .nav a:hover {
+    color: #0066cc;
 }
 
 .nav a.active {
+    color: #0066cc;
 }
 .close {
 }
 
 .close img {
 }
+
