@@ -27,6 +27,8 @@ const initialPeople: UserType[] = [
     {_id: 5, name: 'Ирина', age: 55},
 ]
 
+console.log(initialPeople.sort((a, b) => a.name < b.name ? 1 : -1))
+
 const HW8 = () => {
     const [people, setPeople] = useState<UserType[]>(initialPeople)
     const [currentSort, setCurrentSort] = useState('')
